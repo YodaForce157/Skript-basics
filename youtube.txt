@@ -1,0 +1,3 @@
+command /youtube:
+	trigger:
+		send "https://www.youtube.com/moonpvp" to player

@@ -1,0 +1,6 @@
+command /kitgui:
+	trigger:
+		open virtual chest inventory with size 1 named "&bKitGUI" to player
+		format gui slot 0 of player with tripwire hook named "KitPVP" to run:
+			give player iron_sword
+			close player's inventory
